@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "386940513880",
+    "project_id": "ladm-u5-map",
+    "storage_bucket": "ladm-u5-map.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386940513880:android:5b9eb4f9e8518a9e32242d",
+        "android_client_info": {
+          "package_name": "mx.tecnm.tepic.ladm_u5_map"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386940513880-bkjb5q5hhte0lfk73qp0m0cks67h83ga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR61AYGyhaImKbOrKDKWvus5oLIQ0AoO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386940513880-bkjb5q5hhte0lfk73qp0m0cks67h83ga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
