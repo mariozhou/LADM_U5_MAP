@@ -14,7 +14,7 @@ class Data {
     }
 
     fun estoyEn(posicionActual: GeoPoint) : Boolean {
-        //similar estar en area
+        //similar estaenarea
         if (posicionActual.latitude >= posicion1.latitude &&
             posicionActual.latitude <= posicion2.latitude){
             if (invertir(posicionActual.longitude) >= invertir(posicion1.longitude) &&

@@ -47,6 +47,7 @@ class MainActivity : AppCompatActivity() {
             var oyente = Oyente(this)
             locacion.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 00f, oyente)
         }
+        //consulta
         baseRemota.collection("tec")
             .addSnapshotListener { querySnapshot, error ->
                 if (error != null) {
@@ -69,7 +70,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 lista.setText(resultado)
             }
-
+        //buscar
         btn.setOnClickListener {
             val edbusqueda = findViewById<EditText>(R.id.edbusqueda)
             val textresultado = findViewById<TextView>(R.id.textresultado)
@@ -100,9 +101,7 @@ class MainActivity : AppCompatActivity() {
             .show()
     }
 
-    private fun alerta(s: String) {
-        Toast.makeText(this, s, Toast.LENGTH_LONG).show()
-    }
+   
 }
 
 
